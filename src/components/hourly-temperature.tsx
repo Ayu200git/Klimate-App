@@ -8,10 +8,10 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import { format } from "date-fns";
-import type { forecastData } from "@/api/type";
+import type { ForecastData } from "@/api/type";
 
 interface HourlyTemperatureProps {
-  data: forecastData;
+  data: ForecastData;
 }
 
 interface ChartData {
